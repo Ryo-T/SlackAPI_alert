@@ -22,8 +22,8 @@ def set_text():
 # 各種パラメータの設定
 def set_parameters(params,text):
     alert_params = params
-    alert_params['token'] = 'xoxp-343201048693-342833927716-343202322757-b59e2927d1793a7e516a5629c86279e1'
-    alert_params['channel'] = 'CC56S9WDA'
+    alert_params['token'] = ''
+    alert_params['channel'] = '' 
     alert_params['text'] = text
     return alert_params
      
